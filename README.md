@@ -3,7 +3,7 @@
 ⚠️ **Status: Early Development**
 
 This project is currently in its very early stage.  
-At the moment, the repository only contains files to create a small window through imGUI.
+At the moment, the repository only contains files to create a small window through imGUI and scan netowork for IP adresses.
 
 ---
 
@@ -25,7 +25,7 @@ Insiparion comes from wireShark, but not intended to support **any** exploits!!!
 
 - **Language:** C++
 - **GUI Framework:** ImGUI
-- **Build System:** (planned) CMake / ImGUI
+- **Build System:** CMake / ImGUI
 - **Platform:** Windows (initial target, cross-platform possible)
 
 ---
@@ -42,7 +42,7 @@ Insiparion comes from wireShark, but not intended to support **any** exploits!!!
 - Scan progress indicator
 
 ### Network Features
-- Local subnet detection
+- Local subnet detection -done
 - Host discovery (ping or TCP check)
 - Scan multiple devices in subnet
 - Common ports quick-scan mode
@@ -77,12 +77,3 @@ This tool is being developed strictly for:
 This is not planned to be used as any **HARMFULL TOOL**, not under **any** circumstances!!!
 
 ---
-
-## 📂 Project Status
-
-Current state:
-
-- Base structure created
-- Development just started
-- Creating GUI
-- Starting development on core features
